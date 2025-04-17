@@ -3,7 +3,7 @@ from radon.complexity import cc_visit
 from radon.metrics import h_visit
 from radon.raw import analyze
 
-with open("calculator.py") as f:
+with open("calculator_module.py") as f:
     code = f.read()
 
 print("Цикломатична складність:")
